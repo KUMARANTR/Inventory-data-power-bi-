@@ -1,0 +1,11 @@
+Step 1 we have column called source name based on that column go to add column select columns from example tab and enter the date number like 0212024 which is in month/date/year format and 
+step 2 filter the column  tnum and remove the tnum filter there
+step 3  once u have filtered see the column text between demliters 
+and split column by position 0,8 with 8 digits 
+and remove the another text with demiliter column 2 
+and now based on the 8 digits characters which u got in column text between demiliters then
+
+step 4 split the  columns by  month with 2 characters  follwed by 2 characters for date and final 4 characters as month
+step 5 u can combine all the three column and do merge column based on - hyphen or and change the data type to date
+or another way is there
+select all the three split column and go to column with examples and enter the values like 02/01/2024 and change the data type to date/time and then to date data type and rename your column as date column is ready now
