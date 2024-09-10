@@ -1,0 +1,16 @@
+SKU-Strat-Affinity Tab
+
+For the Velocity tab A,B,C when we click on blank it was showing some issue.
+go to manage relationship and make the sku strat affinity  outlet  the make the active relationship to inactive and deselect the blank no and it should work well.
+
+for the return data in alpargatas  make a data dax like create a date table
+DATE_RETURNS =
+CALENDAR
+(
+MIN
+(RETURNS[DATE]),
+MAX
+(RETURNS[DATE]))
+
+
+after that make a manage relationship tab with date values and click okay
